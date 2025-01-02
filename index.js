@@ -48,14 +48,14 @@ const baseLayers = {
 
 // Define a custom icon
 const marketIcon = L.icon({
-    iconUrl: './icons/market.png',
+    iconUrl: './market.png',
     iconSize: [32, 37],
     iconAnchor: [16, 44],
     popupAnchor: [0, -37] 
 });
 
 const cycleIcon = L.icon({
-    iconUrl: './icons/cycling.png',
+    iconUrl: './cycling.png',
     iconSize: [32, 37],
     iconAnchor: [16, 44],
     popupAnchor: [0, -37] 
