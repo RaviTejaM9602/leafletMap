@@ -126,7 +126,6 @@ const market = L.geoJSON(markets, {
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      console.log(feature);
       const popupMarketContent = `
             <strong>Name:</strong> ${feature?.properties?.Market}<br>
             <strong>Description:</strong> ${feature?.properties?.Goods}<br>
