@@ -17,8 +17,8 @@ let endPoint = null;
 
 // Initialize the map
 let map = L.map("map", {
-  center: [53.73001, -1.982],
-  zoom: 7,
+  center: [53.7115, -1.9442],
+  zoom: 11,
   maxBounds: bounds,
   maxBoundsViscosity: 1.0,
   zoomControl: true,
